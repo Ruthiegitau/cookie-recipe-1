@@ -3,35 +3,114 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Chocolate Chip Cookies</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+    <div class="container-fluid">
+
+      <div class="page-header">
+        <h1>Best Chocolate Chip Cookies! <small>How to make them</small></h1>
+      </div>
+    </div>
   </head>
+
   <body>
-    <h1>Best Chocolate Chip Cookies<img src="http://lorempixel.com/400/200/" alt="An image of a cookie"/></h1>
-    <p>This recipe is from my dad and they are a favorite among friends and family. The secret ingredient is the coconut! <em>Be warned</em>, these will fly off of the plate!</p>
-    <!-- Add in section about history of cookies? <h3> History of cookies </h3> <p>Most people don't know the complicated past of the cookie. FINISH -->
-    <h2>Ingredients</h2>
-    <ul>
-      <li>Butter</li>
-      <li>White sugar</li>
-      <li>Brown sugar</li>
-      <li>Eggs</li>
-      <li>Vanilla</li>
-      <li>Flour</li>
-      <li>Baking soda</li>
-      <li>Salt</li>
-      <li>Chocolate chips</li>
-      <li>Oatmeal</li>
-      <li>Coconut</li>
-    </ul>
-    <h2>Directions</h2>
-    <ol>
-      <li>Preheat the oven to 325.</li>
-      <li>Beat the butter, sugar, eggs and vanilla together until creamy.</li>
-      <li>Mix together the flour, baking soda and salt in a separate bowl.</li>
-      <li>Add flour mixture to butter mixture slowly.</li>
-      <li>Stir in chocolate chips, oatmeal and coconut.</li>
-      <li>Bake for <strong>10 minutes</strong> or until golden brown.</li>
-    </ol>
-    <p><a href="http://allrecipes.com">Click here</a> to check out my other great recipes.</p>
-  </body>
-</html>
+
+
+
+    <div class="container-fluid">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          This recipe is from my dad and they are a favorite among friends and family. The secret ingredient is the coconut! <br><em>Be warned</em>, these will fly off of the plate!
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+            <!-- Add in section about history of cookies? <h3> History of cookies </h3> <p>Most people don't know the complicated past of the cookie. FINISH -->
+            <h2>Ingredients</h2>
+            <ul class="list-group">
+              <li class="list-group-item">Butter</li>
+              <li class="list-group-item">White sugar</li>
+              <li class="list-group-item">Brown sugar</li>
+              <li class="list-group-item">Eggs</li>
+              <li class="list-group-item">Vanilla</li>
+              <li class="list-group-item">Flour</li>
+              <li class="list-group-item">Baking soda</li>
+              <li class="list-group-item">Salt</li>
+              <li class="list-group-item">Chocolate chips</li>
+              <li class="list-group-item">Oatmeal</li>
+              <li class="list-group-item">Coconut</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-6">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/cookie.jpg" alt="An image of a cookie" class="img-thumbnail">
+                <div class="carousel-caption">
+                  A cookie
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/small-cookie.png" alt="Another image of a cookie" class="img-thumbnail">
+                <div class="carousel-caption">
+                  Another cookie
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/raisin-cookie.jpg" alt="Yet another image of a cookie" class="img-thumbnail">
+                <div class="carousel-caption">
+                  Yet another cookie
+                </div>
+              </div>
+              Our cookie gallery
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </div>
+      </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">Directions</div>
+            <div class="panel-body">
+              <ol>
+                <li>Preheat the oven to 325.</li>
+                <li>Beat the butter, sugar, eggs and vanilla together until creamy.</li>
+                <li>Mix together the flour, baking soda and salt in a separate bowl.</li>
+                <li>Add flour mixture to butter mixture slowly.</li>
+                <li>Stir in chocolate chips, oatmeal and coconut.</li>
+                <li>Bake for <strong>10 minutes</strong> or until golden brown.</li>
+              </ol>
+            </div>
+          </div>
+
+        <p><a href="http://allrecipes.com">Click here</a> to check out my other great recipes.</p>
+
+    </div>
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src "js/bootstrap.min.js"></script>
+    </body>
+  </html>
